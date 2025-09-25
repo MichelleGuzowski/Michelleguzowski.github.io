@@ -1,0 +1,112 @@
+/* -------- Base -------- */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #faf9f6;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* -------- Layout -------- */
+section {
+  max-width: 800px;
+  margin: 0 auto 32px;
+  padding: 0 16px;
+}
+
+/* -------- Headings -------- */
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36pt;
+  color: silver;
+  text-transform: uppercase;
+  margin: 24px 0 12px;
+  letter-spacing: 1px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  margin: 16px 0 12px;
+}
+
+h2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+  color: #b08040;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  color: #b08040;
+  font-weight: bold;
+}
+
+/* -------- Paragraph Cards -------- */
+p {
+  font-size: 12pt;
+  border: 2px solid #b08040;
+  margin: 24px auto;
+  padding: 20px 14px;
+  width: 60%;
+  max-width: 680px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+p:hover {
+  background-color: #fff6e6;
+  border-color: #8a6b3d;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* -------- Utilities -------- */
+.about {
+  background-color: #fff9db;
+  font-weight: bold;
+}
+
+.highlight {
+  color: darkgreen;
+  font-style: italic;
+}
+
+/* -------- Links -------- */
+a {
+  color: #b08040;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px dotted #8a6b3d;
+  outline-offset: 2px;
+}
+
+/* Navigation links inside h1 */
+h1 a {
+  font-family: inherit;
+  font-size: 16pt;
+  text-transform: none;
+  margin: 0 8px;
+  padding: 2px 4px;
+}
+
+/* -------- Images -------- */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
